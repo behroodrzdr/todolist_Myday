@@ -1,0 +1,8 @@
+.card{
+  width: 300;
+  margin: '0 8px 8px 8px';
+}
+.card .ant-card-body{
+    height: 117px;
+    overflow: hidden;
+}
