@@ -34,8 +34,7 @@
         {
           "allow": ["warn", "error", "info"]
         }
-      ],
-      "prettier/prettier": "error"
+      ]
     }
   },
   "browserslist": {
