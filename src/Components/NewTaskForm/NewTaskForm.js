@@ -86,7 +86,7 @@ const NewTaskForm = () => {
             </Item>
             <Item wrapperCol={{ ...layout.wrapperCol, offset: 8 }}>
               <Button type="primary" htmlType="submit" loading={loading}>
-                Add Task
+               { isOnedit ? 'Update task' : ' Add task'}
               </Button>
             </Item>
           </Form>
